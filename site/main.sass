@@ -1,0 +1,63 @@
+// @import header.sass
+// @extend .selector
+
+// sass --watch main.sass:main.css
+
+$c-dark: #1E1B30
+$c-medium: #332E52
+$c-light: #4E4680
+$c-extra-light: #8578D6
+$c-light-25: rgba(#4E4680, 0.25)
+$c-light-50: rgba(#4E4680, 0.50)
+
+body
+	margin: 0px
+	background-color: $c-dark
+a
+	text-decoration: none
+
+
+
+.header-div-1250
+	background-color: $c-light-25
+	display: flex
+
+	a
+		color: $c-extra-light
+
+	.header-div-250
+		background-color: $c-light-25
+		min-width: 100px
+		width: 23.8%
+		max-width: 150px
+
+		img
+			height: 80px
+			padding-top: 10px
+			padding-bottom: 10px
+			display: block
+			margin-left: auto
+			margin-right: auto
+
+	nav
+		line-height: 100px
+		width: 100%
+
+		ul
+			font-family: Raleway
+			font-size: 20px
+			list-style: none
+			padding: 0
+			margin: 0
+			display: flex
+			justify-content: center
+
+			li
+				padding-left: 10px
+				padding-right: 10px
+
+.bg
+	width: 100%
+	position: absolute
+	z-index: -15
+	top: 0
